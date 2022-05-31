@@ -14,7 +14,7 @@ app.get('/', (req,res) => {
 })
 
 app.get('/task', (req,res) => {
-  console.log('get task')
+  console.log('get task!')
 })
 
 app.get('/task/:id', (req,res) => {
